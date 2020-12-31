@@ -9,8 +9,9 @@ This code is heavily borrowed from [Adaptsegnet](https://github.com/wasidennis/A
 
 ## Training and Testing script
 
+### GTA Only
 ```
-python train_gta2cityscapes_multi.py --snapshot-dir ./snapshots/GTA2Cityscapes_single \
+python train_GTA_only.py --snapshot-dir ./snapshots/GTA2Cityscapes_single \
                                      --lambda-seg 0.0 \
                                      --lambda-adv-target1 0.0 --lambda-adv-target2 0.001
 
