@@ -6,7 +6,10 @@ This code is heavily borrowed from [Pytorch-Deeplab](https://github.com/speeding
 
 This code is heavily borrowed from [Adaptsegnet](https://github.com/wasidennis/AdaptSegNet).
 
-# Dataset path
+## Dataset
+
+* Download the [GTA5 Dataset](https://download.visinf.tu-darmstadt.de/data/from_games/) as the source domain.
+* Download the [Cityscapes Dataset](https://www.cityscapes-dataset.com/) as the target domain.
 
 ```
 Data\
