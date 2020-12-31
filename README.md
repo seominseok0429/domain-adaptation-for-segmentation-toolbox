@@ -6,7 +6,19 @@ This code is heavily borrowed from [Pytorch-Deeplab](https://github.com/speeding
 
 This code is heavily borrowed from [Adaptsegnet](https://github.com/wasidennis/AdaptSegNet).
 
+# Dataset path
 
+```
+Data\
+    Cityscapes\
+        gtFine\
+        gtFine_trainvaltest\
+        leftImg8bit\
+        meta\
+    GTA5\
+        images\
+        labels\
+``` 
 ## Training and Testing script
 
 ### GTA Only
