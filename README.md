@@ -37,6 +37,20 @@ python evaluate_cityscapes.py --restore-from ./snapshots/GTA2Cityscapes_single/G
 python compute_iou.py ./data/Cityscapes/gtFine/val result/cityscapes
 ```
 
+### AdaptSegNet
+```
+python train_gta2cityscapes_multi.py --snapshot-dir ./snapshots/GTA2Cityscapes_single \
+                                     --lambda-seg 0.0 \
+                                     --lambda-adv-target1 0.0 --lambda-adv-target2 0.001
+
+
+python evaluate_cityscapes.py --restore-from ./snapshots/GTA2Cityscapes_single/GTA5_115000.pth
+
+
+python compute_iou.py ./data/Cityscapes/gtFine/val result/cityscapes
+```
+
+
 ## Reslut
 
 | Method | road | sidewalk | building | wall | fence | pole | light | sign | vegetation | terrain | sky | person | rider | car | truck | bus | train | motocycle | bicycle | mIoU |
