@@ -21,29 +21,8 @@ python evaluate_cityscapes.py --restore-from ./snapshots/GTA2Cityscapes_single/G
 python compute_iou.py ./data/Cityscapes/gtFine/val result/cityscapes
 ```
 
-===>road:	85.28
-===>sidewalk:	20.23
-===>building:	69.0
-===>wall:	21.0
-===>fence:	14.13
-===>pole:	22.36
-===>light:	31.83
-===>sign:	15.74
-===>vegetation:	65.21
-===>terrain:	19.79
-===>sky:	68.5
-===>person:	55.28
-===>rider:	26.24
-===>car:	72.13
-===>truck:	25.74
-===>bus:	32.48
-===>train:	1.34
-===>motocycle:	29.35
-===>bicycle:	38.11
-===> mIoU: 37.57
-
 ## Reslut
 
 | Method | road | sidewalk | building | wall | fence | pole | light | sign | vegetation | terrain | sky | person | rider | car | truck | bus | train | motocycle | bicycle | mIoU |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| 내용 11 | 내용 12 | 내용 13 | 내용 11 | 내용 12 | 내용 13 | 내용 11 | 내용 12 | 내용 13 | 내용 11 | 내용 12 | 내용 13 | 내용 11 | 내용 12 | 내용 13 | 내용 11 | 내용 12 | 내용 13 | 내용 11 | 내용 12 | 내용 13 |
+| DeepLabV2-baseline | 85.28 | 20.23 | 69.0 | 21.0 | 14.13 | 22.36 | 31.83 | 15.74 | 65.21 | 19.79 | 68.5 | 55.28 | 26.24 | 72.13 | 25.74 | 32.48 | 1.34 | 29.35 | 38.11 | 37.57 |
