@@ -1,11 +1,12 @@
 # domain-adaptation-for-segmentation-toolbox!
 
-[Uploading Screen Shot 2022-02-10 at 5.47.25 PM.png…]()
-
+<img width="886" alt="Screen Shot 2022-02-10 at 5 47 25 PM" src="https://user-images.githubusercontent.com/33244972/153370881-be6239b6-f1e8-4049-9807-bde2b9aee9ce.png">
 
 domain adaptation for segmentation toolbox(Pytorch) - deeplabev2, adaptsegnet...etc
 
-This code is heavily borrowed from [Pytorch-Deeplab](https://github.com/speedinghzl/Pytorch-Deeplab).
+This code is heavily bor
+
+rowed from [Pytorch-Deeplab](https://github.com/speedinghzl/Pytorch-Deeplab).
 
 This code is heavily borrowed from [Adaptsegnet](https://github.com/wasidennis/AdaptSegNet).
 
